@@ -9,6 +9,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
+
+# Configuración de página
+st.set_page_config(page_title="Mejora Regulatoria en Energía", layout="wide")
+
 # Estilo de fondo
 page_bg_img = """
 <style>
@@ -26,8 +31,6 @@ background-size:16px 16px;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-# Configuración de página
-st.set_page_config(page_title="Mejora Regulatoria en Energía", layout="wide")
 
 # Título principal
 st.title("⚡ Mejora Regulatoria en el Sector Energético")
