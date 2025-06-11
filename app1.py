@@ -9,12 +9,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-
-
 # Configuración de página
 st.set_page_config(page_title="Mejora Regulatoria en Energía", layout="wide")
 
-# Estilo de fondo
+# Estilo de fondo (esto va después)
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"]{
@@ -27,9 +25,7 @@ background-color:#282828;
 background-size:16px 16px;
 </style>
 """
-
 st.markdown(page_bg_img, unsafe_allow_html=True)
-
 
 
 # Título principal
